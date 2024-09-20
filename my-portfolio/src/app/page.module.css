@@ -1,0 +1,53 @@
+/* src/app/page.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.about, .skills, .projects, .contact {
+  max-width: 800px;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.aboutTitle, .skillsTitle, .projectsTitle, .contactTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/*ul { 
+  list-style-type: none;
+  padding: 0;
+}*/
+
+/*li {
+  margin-bottom: 0.5rem;
+}*/
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+  color:blueviolet
+}
+
+.background {
+  color:aquamarine;
+}
